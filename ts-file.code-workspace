@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "./"
+    },
+    {
+      "path": "docs",
+      "name": "./docs"
+    },
+    {
+      "path": "scripts",
+      "name": "./scripts"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "functions": true,
+      "docs": true,
+      "scripts": true,
+      "docker": true,
+      "**/coverage": true,
+      "**/lib": true,
+      "**/node_modules": true
+    },
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "file",
+    "eslint.lintTask.enable": true,
+    "github.copilot.enabled": true,
+    "cSpell.words": ["chunkify", "deslugify", "slugified"]
+  },
+  "extensions": {
+    "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "rvest.vs-code-prettier-eslint", "github.copilot", "davidanson.vscode-markdownlint"]
+  }
+}

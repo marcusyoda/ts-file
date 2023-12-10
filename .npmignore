@@ -1,0 +1,12 @@
+# Development files
+.editorconfig
+.eslintignore
+.eslintrc.json
+tsconfig.json
+/tests/
+*.sw*
+nyc_output
+.nyc_output
+coverage
+.idea/
+.vscode/
